@@ -19,7 +19,7 @@ export default function HomePage() {
   const [selectedLanguage, setSelectedLanguage] = useState("MX");
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-black">
+    <div className="flex flex-col min-h-screen bg-white text-black overflow-x-hidden">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Image
@@ -84,7 +84,7 @@ export default function HomePage() {
             backgroundImage: "url('/Principal.png?height=600&width=800')",
           }}
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center backdrop-blur-md bg-white/50 p-6 rounded-lg">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-black">
@@ -105,7 +105,7 @@ export default function HomePage() {
           id="servicios"
           className="w-full py-12 md:py-24 lg:py-32 bg-gray-100"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Nuestros Servicios
             </h2>
@@ -156,7 +156,7 @@ export default function HomePage() {
           </div>
         </section>
         <section id="galeria" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Galería de Proyectos
             </h2>
@@ -178,7 +178,7 @@ export default function HomePage() {
           id="contacto"
           className="w-full py-12 md:py-24 lg:py-32 bg-gray-100"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Contáctanos
             </h2>
