@@ -114,7 +114,7 @@ export default function HomePage() {
                 <Image
                   src="/Interior.png"
                   alt="Pintura Interior"
-                  width={500}
+                  width={400}
                   height={500}
                   className="mb-4"
                 />
